@@ -461,7 +461,7 @@ public final class UnityUnitTypes{
                 bullet = new SlowRailBulletType(25f, 250f){{
                     lifetime = 13f;
                     trailSpacing = 25f;
-                    splashDamage = 95f;
+                    splashDamage = 230f;
                     splashDamageRadius = 50f;
                     hitEffect = Fx.hitBulletBig;
                     shootEffect = Fx.instShoot;
