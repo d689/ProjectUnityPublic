@@ -461,7 +461,7 @@ public final class UnityUnitTypes{
                 bullet = new SlowRailBulletType(25f, 250f){{
                     lifetime = 13f;
                     trailSpacing = 25f;
-                    splashDamage = 190f;
+                    splashDamage = 210f;
                     splashDamageRadius = 50f;
                     hitEffect = Fx.hitBulletBig;
                     shootEffect = Fx.instShoot;
@@ -1022,7 +1022,7 @@ public final class UnityUnitTypes{
 
             BulletType b = UnitTypes.scepter.weapons.get(0).bullet.copy();
             b.speed = 6.5f;
-            b.damage = 60f;
+            b.damage = 40f;
             b.lifetime = 47f;
 
             weapons.add(new Weapon(){{
@@ -1037,7 +1037,7 @@ public final class UnityUnitTypes{
                 shootStatusDuration = 180f;
                 shootSound = Sounds.beam;
 
-                bullet = new AcceleratingLaserBulletType(80f){{
+                bullet = new AcceleratingLaserBulletType(100f){{
                     lifetime = 180f;
                     maxLength = 380f;
                     maxRange = 330f;
@@ -1100,7 +1100,7 @@ public final class UnityUnitTypes{
 
             BulletType b = UnitTypes.scepter.weapons.get(0).bullet.copy();
             b.speed = 6.5f;
-            b.damage = 40f;
+            b.damage = 60f;
             b.lightning = 3;
             b.lightningDamage = 27f;
             b.lightningCone = 360f;
@@ -1144,7 +1144,7 @@ public final class UnityUnitTypes{
                 cooldownTime = 6f * 60f;
                 shootSound = Sounds.beam;
 
-                bullet = new AcceleratingLaserBulletType(320f){{
+                bullet = new AcceleratingLaserBulletType(280f){{
                     lifetime = 4f * 60f;
                     maxLength = 430f;
                     maxRange = 400f;
@@ -1362,7 +1362,7 @@ public final class UnityUnitTypes{
                 bullet = new MortarBulletType(7f, 4f){{
                     width = height = 22f;
                     splashDamageRadius = 160f;
-                    splashDamage = 250f;
+                    splashDamage = 270f;
                     trailWidth = 7f;
                     trailColor = Pal.bulletYellowBack;
                     hitEffect = HitFx.hitExplosionMassive;
