@@ -70,6 +70,7 @@ public final class UnityUnitTypes{
             accel = 0.04f;
             fallSpeed = 0.005f;
             health = 75;
+            armor = 2f;
             engineSize = 0f;
             flying = true;
             hitSize = 12f;
@@ -783,7 +784,7 @@ public final class UnityUnitTypes{
             drag = 0.1f;
             speed = 0.42f;
             hitSize = 35.5f;
-            health = 30000;
+            health = 44500;
             rotateSpeed = 1.3f;
 
             legCount = 8;
@@ -879,7 +880,7 @@ public final class UnityUnitTypes{
             hitSize = 49f;
             hovering = true;
             allowLegStep = true;
-            health = 38750;
+            health = 105500;
             armor = 16f;
             rotateSpeed = 1.3f;
             legCount = 8;
@@ -1177,7 +1178,7 @@ public final class UnityUnitTypes{
 
         sedec = new UnityUnitType("sedec"){{
             defaultController = HealingDefenderAI::new;
-            health = 45000f;
+            health = 54000f;
             armor = 20f;
             speed = 0.7f;
             rotateSpeed = 1f;
@@ -1226,8 +1227,8 @@ public final class UnityUnitTypes{
 
         trigintaduo = new UnityUnitType("trigintaduo"){{
             defaultController = HealingDefenderAI::new;
-            health = 52500f;
-            armor = 22f;
+            health = 160000f;
+            armor = 25f;
             speed = 0.6f;
             rotateSpeed = 1f;
             accel = 0.04f;
@@ -1304,11 +1305,11 @@ public final class UnityUnitTypes{
         //region naval-units
 
         fin = new UnityUnitType("fin"){{
-            health = 36250f;
+            health = 43500f;
             speed = 0.5f;
             drag = 0.18f;
             hitSize = 77.5f;
-            armor = 17f;
+            armor = 22f;
             accel = 0.19f;
             rotateSpeed = 0.86f;
             rotateShooting = false;
@@ -1357,7 +1358,7 @@ public final class UnityUnitTypes{
                 bullet = new MortarBulletType(7f, 4f){{
                     width = height = 22f;
                     splashDamageRadius = 160f;
-                    splashDamage = 160f;
+                    splashDamage = 350f;
                     trailWidth = 7f;
                     trailColor = Pal.bulletYellowBack;
                     hitEffect = HitFx.hitExplosionMassive;
@@ -1373,11 +1374,11 @@ public final class UnityUnitTypes{
         }};
 
         blue = new UnityUnitType("blue"){{
-            health = 42500f;
+            health = 135000f;
             speed = 0.4f;
             drag = 0.18f;
             hitSize = 80f;
-            armor = 18f;
+            armor = 25f;
             accel = 0.19f;
             rotateSpeed = 0.78f;
             rotateShooting = false;
@@ -1389,7 +1390,7 @@ public final class UnityUnitTypes{
 
             float spawnTime = 15f * 60f;
 
-            abilities.add(new UnitSpawnAbility(schistocerca, spawnTime, 24.75f, -29.5f), new UnitSpawnAbility(schistocerca, spawnTime, -24.75f, -29.5f));
+            abilities.add(new UnitSpawnAbility(schistocerca, spawnTime, 24.75f, -30.5f), new UnitSpawnAbility(schistocerca, spawnTime, -24.75f, -30.5f));
 
             weapons.addAll(new LimitedAngleWeapon(name + "-front-cannon"){{
                 layerOffset = -0.01f;
@@ -1519,9 +1520,10 @@ public final class UnityUnitTypes{
                     lifetime = 10f;
                     width = 20f;
                     height = 38f;
+                    damage = 1700f;
                     splashDamage = 50f;
                     splashDamageRadius = 30f;
-                    pierceDamageFactor = 0.15f;
+                    pierceDamageFactor = 0.7f;
                     pierceCap = -1;
                     fragBullet = Bullets.standardDense;
                     fragBullets = 2;
