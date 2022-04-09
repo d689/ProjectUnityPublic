@@ -1394,7 +1394,7 @@ public final class UnityUnitTypes{
 
             float spawnTime = 15f * 60f;
 
-            abilities.add(new UnitSpawnAbility(schistocerca, spawnTime, 24.75f, -30.5f), new UnitSpawnAbility(schistocerca, spawnTime, -24.75f, -30.5f));
+            abilities.add(new UnitSpawnAbility(schistocerca, spawnTime, 24.75f, -28.5f), new UnitSpawnAbility(schistocerca, spawnTime, -24.75f, -28.5f));
 
             weapons.addAll(new LimitedAngleWeapon(name + "-front-cannon"){{
                 layerOffset = -0.01f;
