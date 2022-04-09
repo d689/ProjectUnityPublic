@@ -1182,7 +1182,7 @@ public final class UnityUnitTypes{
 
         sedec = new UnityUnitType("sedec"){{
             defaultController = HealingDefenderAI::new;
-            health = 54000f;
+            health = 56000f;
             armor = 20f;
             speed = 0.7f;
             rotateSpeed = 1f;
@@ -1309,7 +1309,7 @@ public final class UnityUnitTypes{
         //region naval-units
 
         fin = new UnityUnitType("fin"){{
-            health = 43500f;
+            health = 50500f;
             speed = 0.5f;
             drag = 0.18f;
             hitSize = 77.5f;
