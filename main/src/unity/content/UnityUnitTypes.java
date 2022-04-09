@@ -1362,7 +1362,7 @@ public final class UnityUnitTypes{
                 bullet = new MortarBulletType(7f, 4f){{
                     width = height = 22f;
                     splashDamageRadius = 160f;
-                    splashDamage = 270f;
+                    splashDamage = 250f;
                     trailWidth = 7f;
                     trailColor = Pal.bulletYellowBack;
                     hitEffect = HitFx.hitExplosionMassive;
@@ -1382,7 +1382,7 @@ public final class UnityUnitTypes{
             speed = 0.4f;
             drag = 0.18f;
             hitSize = 80f;
-            armor = 28f;
+            armor = 26f;
             accel = 0.19f;
             rotateSpeed = 0.78f;
             rotateShooting = false;
@@ -1394,7 +1394,7 @@ public final class UnityUnitTypes{
 
             float spawnTime = 15f * 60f;
 
-            abilities.add(new UnitSpawnAbility(schistocerca, spawnTime, 24.75f, -33.5f), new UnitSpawnAbility(schistocerca, spawnTime, -24.75f, -33.5f));
+            abilities.add(new UnitSpawnAbility(schistocerca, spawnTime, 24.75f, -35.5f), new UnitSpawnAbility(schistocerca, spawnTime, -24.75f, -35.5f));
 
             weapons.addAll(new LimitedAngleWeapon(name + "-front-cannon"){{
                 layerOffset = -0.01f;
