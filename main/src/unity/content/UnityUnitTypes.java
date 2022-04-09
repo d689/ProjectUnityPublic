@@ -1382,7 +1382,7 @@ public final class UnityUnitTypes{
             speed = 0.4f;
             drag = 0.18f;
             hitSize = 80f;
-            armor = 25f;
+            armor = 28f;
             accel = 0.19f;
             rotateSpeed = 0.78f;
             rotateShooting = false;
@@ -1524,13 +1524,12 @@ public final class UnityUnitTypes{
                     lifetime = 10f;
                     width = 20f;
                     height = 38f;
-                    damage = 1700f;
                     splashDamage = 50f;
                     splashDamageRadius = 30f;
-                    pierceDamageFactor = 0.7f;
+                    pierceDamageFactor = 0f;
                     pierceCap = -1;
                     fragBullet = Bullets.standardDense;
-                    fragBullets = 2;
+                    fragBullets = 5;
                     fragCone = 20f;
                     fragLifeMin = 0.4f;
                     fragLifeMax = 0.7f;
