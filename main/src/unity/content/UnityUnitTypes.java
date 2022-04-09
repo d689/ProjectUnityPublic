@@ -1378,7 +1378,7 @@ public final class UnityUnitTypes{
         }};
 
         blue = new UnityUnitType("blue"){{
-            health = 135000f;
+            health = 145000f;
             speed = 0.4f;
             drag = 0.18f;
             hitSize = 80f;
@@ -1394,7 +1394,7 @@ public final class UnityUnitTypes{
 
             float spawnTime = 15f * 60f;
 
-            abilities.add(new UnitSpawnAbility(schistocerca, spawnTime, 24.75f, -35.5f), new UnitSpawnAbility(schistocerca, spawnTime, -24.75f, -35.5f));
+            abilities.add(new UnitSpawnAbility(schistocerca, spawnTime, 24.75f, -37.5f), new UnitSpawnAbility(schistocerca, spawnTime, -24.75f, -37.5f));
 
             weapons.addAll(new LimitedAngleWeapon(name + "-front-cannon"){{
                 layerOffset = -0.01f;
@@ -1409,7 +1409,7 @@ public final class UnityUnitTypes{
                 shootCone = 15f;
                 rotate = true;
                 shootSound = Sounds.artillery;
-                reload = 25f;
+                reload = 12.5f;
 
                 bullet = Bullets.standardThoriumBig;
             }}, new LimitedAngleWeapon(name + "-side-silo"){
