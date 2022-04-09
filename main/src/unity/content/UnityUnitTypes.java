@@ -1378,7 +1378,7 @@ public final class UnityUnitTypes{
         }};
 
         blue = new UnityUnitType("blue"){{
-            health = 145000f;
+            health = 138500f;
             speed = 0.4f;
             drag = 0.18f;
             hitSize = 80f;
