@@ -124,6 +124,7 @@ public final class UnityUnitTypes{
             accel = 0.03f;
             fallSpeed = 0.005f;
             health = 150;
+            armor = 5f;
             engineSize = 0f;
             flying = true;
             hitSize = 13f;
@@ -197,6 +198,7 @@ public final class UnityUnitTypes{
             accel = 0.03f;
             fallSpeed = 0.005f;
             health = 450;
+            armor = 7f;
             engineSize = 0f;
             flying = true;
             hitSize = 15f;
@@ -265,6 +267,7 @@ public final class UnityUnitTypes{
             accel = 0.03f;
             fallSpeed = 0.003f;
             health = 4000;
+            armor = 9f;
             engineSize = 0f;
             flying = true;
             hitSize = 30f;
@@ -337,6 +340,7 @@ public final class UnityUnitTypes{
             accel = 0.03f;
             fallSpeed = 0.003f;
             health = 9500;
+            armor = 11f;
             engineSize = 0f;
             flying = true;
             hitSize = 45f;
