@@ -437,8 +437,8 @@ public final class UnityUnitTypes{
             speed = 0.3f;
             hitSize = 49f;
             rotateSpeed = 1.5f;
-            health = 48750f;
-            armor = 15f;
+            health = 52750f;
+            armor = 17f;
             mechStepParticles = true;
             mechStepShake = 0.8f;
             canDrown = false;
@@ -461,7 +461,7 @@ public final class UnityUnitTypes{
                 bullet = new SlowRailBulletType(25f, 250f){{
                     lifetime = 13f;
                     trailSpacing = 25f;
-                    splashDamage = 230f;
+                    splashDamage = 190f;
                     splashDamageRadius = 50f;
                     hitEffect = Fx.hitBulletBig;
                     shootEffect = Fx.instShoot;
@@ -1006,8 +1006,8 @@ public final class UnityUnitTypes{
         }};
 
         mantle = new UnityUnitType("mantle"){{
-            health = 54000f;
-            armor = 17f;
+            health = 44500f;
+            armor = 14f;
             speed = 0.45f;
             accel = 0.04f;
             drag = 0.04f;
@@ -1085,7 +1085,7 @@ public final class UnityUnitTypes{
 
         aphelion = new UnityUnitType("aphelion"){{
             health = 130000f;
-            armor = 16f;
+            armor = 18f;
             speed = 0.44f;
             accel = 0.04f;
             drag = 0.03f;
