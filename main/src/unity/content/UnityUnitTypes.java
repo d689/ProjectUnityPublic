@@ -1382,7 +1382,7 @@ public final class UnityUnitTypes{
             speed = 0.4f;
             drag = 0.18f;
             hitSize = 80f;
-            armor = 26f;
+            armor = 24f;
             accel = 0.19f;
             rotateSpeed = 0.78f;
             rotateShooting = false;
