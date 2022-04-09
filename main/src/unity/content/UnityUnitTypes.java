@@ -1524,8 +1524,7 @@ public final class UnityUnitTypes{
                     lifetime = 10f;
                     width = 20f;
                     height = 38f;
-                    bulletDamage = 1700f;
-                    splashDamage = 50f;
+                    splashDamage = 1700f;
                     splashDamageRadius = 30f;
                     pierceDamageFactor = 0f;
                     pierceCap = -1;
