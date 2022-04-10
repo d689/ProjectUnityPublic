@@ -736,12 +736,12 @@ public final class UnityUnitTypes{
                 continuous = true;
                 cooldownTime = 280f;
 
-                bullet = new SagittariusLaserBulletType(35f){{
+                bullet = new SagittariusLaserBulletType(1500f){{
                     shootEffect = ChargeFx.sagittariusCharge;
                     lifetime = 10f * 60f;
                     collidesTeam = true;
                     healPercent = 0.4f;
-                    splashDamage = 4f;
+                    splashDamage = 250f;
                     splashDamageRadius = 25f;
                     knockback = 3f;
                     buildingDamageMultiplier = 0.6f;
@@ -764,7 +764,7 @@ public final class UnityUnitTypes{
                 shots = 2;
                 shootSound = UnitySounds.energyBolt;
 
-                bullet = new ArrowBulletType(7f, 25f){{
+                bullet = new ArrowBulletType(7f, 100f){{
                     lifetime = 60f;
                     pierce = true;
                     pierceBuilding = true;
@@ -774,7 +774,7 @@ public final class UnityUnitTypes{
                     trailWidth = 4f;
                     width = 9f;
                     height = 15f;
-                    splashDamage = 15f;
+                    splashDamage = 250f;
                     splashDamageRadius = 25f;
                     healPercent = 3f;
                     homingRange = 70f;
@@ -1378,7 +1378,7 @@ public final class UnityUnitTypes{
         }};
 
         blue = new UnityUnitType("blue"){{
-            health = 148500f;
+            health = 155500f;
             speed = 0.4f;
             drag = 0.18f;
             hitSize = 80f;
