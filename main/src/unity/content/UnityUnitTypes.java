@@ -1037,7 +1037,7 @@ public final class UnityUnitTypes{
                 shootStatusDuration = 180f;
                 shootSound = Sounds.beam;
 
-                bullet = new AcceleratingLaserBulletType(100f){{
+                bullet = new AcceleratingLaserBulletType(150f){{
                     lifetime = 180f;
                     maxLength = 380f;
                     maxRange = 330f;
