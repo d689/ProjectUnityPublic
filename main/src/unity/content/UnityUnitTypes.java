@@ -736,7 +736,7 @@ public final class UnityUnitTypes{
                 continuous = true;
                 cooldownTime = 280f;
 
-                bullet = new SagittariusLaserBulletType(200f){{
+                bullet = new SagittariusLaserBulletType(50f){{
                     shootEffect = ChargeFx.sagittariusCharge;
                     lifetime = 10f * 60f;
                     collidesTeam = true;
@@ -774,7 +774,7 @@ public final class UnityUnitTypes{
                     trailWidth = 4f;
                     width = 9f;
                     height = 15f;
-                    splashDamage = 250f;
+                    splashDamage = 50f;
                     splashDamageRadius = 25f;
                     healPercent = 3f;
                     homingRange = 70f;
@@ -1100,7 +1100,7 @@ public final class UnityUnitTypes{
 
             BulletType b = UnitTypes.scepter.weapons.get(0).bullet.copy();
             b.speed = 6.5f;
-            b.damage = 50f;
+            b.damage = 40f;
             b.lightning = 3;
             b.lightningDamage = 27f;
             b.lightningCone = 360f;
@@ -1378,7 +1378,7 @@ public final class UnityUnitTypes{
         }};
 
         blue = new UnityUnitType("blue"){{
-            health = 155500f;
+            health = 160500f;
             speed = 0.4f;
             drag = 0.18f;
             hitSize = 80f;
