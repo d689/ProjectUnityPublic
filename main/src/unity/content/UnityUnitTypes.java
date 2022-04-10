@@ -437,8 +437,8 @@ public final class UnityUnitTypes{
             speed = 0.3f;
             hitSize = 49f;
             rotateSpeed = 1.5f;
-            health = 52750f;
-            armor = 17f;
+            health = 62750f;
+            armor = 20f;
             mechStepParticles = true;
             mechStepShake = 0.8f;
             canDrown = false;
@@ -461,7 +461,7 @@ public final class UnityUnitTypes{
                 bullet = new SlowRailBulletType(25f, 250f){{
                     lifetime = 13f;
                     trailSpacing = 25f;
-                    splashDamage = 210f;
+                    splashDamage = 500f;
                     splashDamageRadius = 50f;
                     hitEffect = Fx.hitBulletBig;
                     shootEffect = Fx.instShoot;
@@ -503,8 +503,8 @@ public final class UnityUnitTypes{
             speed = 0.2f;
             hitSize = 49f;
             rotateSpeed = 1.25f;
-            health = 140000f;
-            armor = 20f;
+            health = 160000f;
+            armor = 26f;
             mechStepParticles = true;
             mechStepShake = 0.83f;
             canDrown = false;
@@ -532,7 +532,7 @@ public final class UnityUnitTypes{
                 shootSound = Sounds.flame;
                 cooldownTime = 180f;
 
-                bullet = new FlameBulletType(6.6f, 75f){{
+                bullet = new FlameBulletType(6.6f, 90f){{
                     lifetime = 42f;
                     pierceCap = 6;
                     pierceBuilding = true;
@@ -622,9 +622,9 @@ public final class UnityUnitTypes{
 
         cygnus = new UnityUnitType("cygnus"){{
             speed = 0.26f;
-            health = 45000f;
+            health = 55000f;
             hitSize = 37f;
-            armor = 10f;
+            armor = 14f;
             landShake = 1.5f;
             commandLimit = 8;
             rotateSpeed = 1.3f;
@@ -702,9 +702,9 @@ public final class UnityUnitTypes{
 
         sagittarius = new UnityUnitType("sagittarius"){{
             speed = 0.25f;
-            health = 102500;
+            health = 134500;
             hitSize = 55f;
-            armor = 12f;
+            armor = 17f;
             landShake = 2f;
             commandLimit = 8;
             rotateSpeed = 0.8f;
@@ -788,7 +788,7 @@ public final class UnityUnitTypes{
             drag = 0.1f;
             speed = 0.42f;
             hitSize = 35.5f;
-            health = 44500;
+            health = 57500;
             rotateSpeed = 1.3f;
 
             legCount = 8;
@@ -807,7 +807,7 @@ public final class UnityUnitTypes{
             legSplashRange = 40f;
             hovering = true;
 
-            armor = 13f;
+            armor = 17f;
             allowLegStep = true;
             visualElevation = 0.95f;
 
@@ -884,8 +884,8 @@ public final class UnityUnitTypes{
             hitSize = 49f;
             hovering = true;
             allowLegStep = true;
-            health = 105500;
-            armor = 16f;
+            health = 145500;
+            armor = 22f;
             rotateSpeed = 1.3f;
             legCount = 8;
             legGroupSize = 2;
@@ -919,13 +919,13 @@ public final class UnityUnitTypes{
                 shots = 2;
                 shootSound = Sounds.missile;
 
-                bullet = new MissileBulletType(3.7f, 15f){{
+                bullet = new MissileBulletType(3.7f, 45f){{
                     width = 10f;
                     height = 12f;
                     shrinkY = 0f;
                     drag = -0.01f;
                     splashDamageRadius = 30f;
-                    splashDamage = 55f;
+                    splashDamage = 60f;
                     ammoMultiplier = 5f;
                     hitEffect = Fx.blastExplosion;
                     despawnEffect = Fx.blastExplosion;
@@ -1006,8 +1006,8 @@ public final class UnityUnitTypes{
         }};
 
         mantle = new UnityUnitType("mantle"){{
-            health = 44500f;
-            armor = 14f;
+            health = 56500f;
+            armor = 16f;
             speed = 0.45f;
             accel = 0.04f;
             drag = 0.04f;
@@ -1037,7 +1037,7 @@ public final class UnityUnitTypes{
                 shootStatusDuration = 180f;
                 shootSound = Sounds.beam;
 
-                bullet = new AcceleratingLaserBulletType(150f){{
+                bullet = new AcceleratingLaserBulletType(200f){{
                     lifetime = 180f;
                     maxLength = 380f;
                     maxRange = 330f;
@@ -1084,8 +1084,8 @@ public final class UnityUnitTypes{
         }};
 
         aphelion = new UnityUnitType("aphelion"){{
-            health = 130000f;
-            armor = 18f;
+            health = 140000f;
+            armor = 25f;
             speed = 0.44f;
             accel = 0.04f;
             drag = 0.03f;
@@ -1182,8 +1182,8 @@ public final class UnityUnitTypes{
 
         sedec = new UnityUnitType("sedec"){{
             defaultController = HealingDefenderAI::new;
-            health = 56000f;
-            armor = 20f;
+            health = 50000f;
+            armor = 18f;
             speed = 0.7f;
             rotateSpeed = 1f;
             accel = 0.04f;
@@ -1232,7 +1232,7 @@ public final class UnityUnitTypes{
         trigintaduo = new UnityUnitType("trigintaduo"){{
             defaultController = HealingDefenderAI::new;
             health = 160000f;
-            armor = 25f;
+            armor = 28f;
             speed = 0.6f;
             rotateSpeed = 1f;
             accel = 0.04f;
@@ -1309,11 +1309,11 @@ public final class UnityUnitTypes{
         //region naval-units
 
         fin = new UnityUnitType("fin"){{
-            health = 50500f;
+            health = 65500f;
             speed = 0.5f;
             drag = 0.18f;
             hitSize = 77.5f;
-            armor = 22f;
+            armor = 24f;
             accel = 0.19f;
             rotateSpeed = 0.86f;
             rotateShooting = false;
@@ -1378,11 +1378,11 @@ public final class UnityUnitTypes{
         }};
 
         blue = new UnityUnitType("blue"){{
-            health = 138500f;
+            health = 148500f;
             speed = 0.4f;
             drag = 0.18f;
             hitSize = 80f;
-            armor = 24f;
+            armor = 30f;
             accel = 0.19f;
             rotateSpeed = 0.78f;
             rotateShooting = false;
