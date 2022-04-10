@@ -1084,8 +1084,8 @@ public final class UnityUnitTypes{
         }};
 
         aphelion = new UnityUnitType("aphelion"){{
-            health = 140000f;
-            armor = 22f;
+            health = 145000f;
+            armor = 24f;
             speed = 0.44f;
             accel = 0.04f;
             drag = 0.03f;
@@ -1524,7 +1524,7 @@ public final class UnityUnitTypes{
                     lifetime = 10f;
                     width = 20f;
                     height = 38f;
-                    splashDamage = 1300f;
+                    splashDamage = 1700f;
                     splashDamageRadius = 30f;
                     pierceDamageFactor = 0f;
                     pierceCap = -1;
