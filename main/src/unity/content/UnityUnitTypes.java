@@ -500,7 +500,7 @@ public final class UnityUnitTypes{
         }};
 
         empire = new UnityUnitType("empire"){{
-            speed = 0.2f;
+            speed = 0.4f;
             hitSize = 49f;
             rotateSpeed = 1.25f;
             health = 160000f;
@@ -1144,7 +1144,7 @@ public final class UnityUnitTypes{
                 cooldownTime = 6f * 60f;
                 shootSound = Sounds.beam;
 
-                bullet = new AcceleratingLaserBulletType(280f){{
+                bullet = new AcceleratingLaserBulletType(350f){{
                     lifetime = 4f * 60f;
                     maxLength = 430f;
                     maxRange = 400f;
@@ -1524,7 +1524,7 @@ public final class UnityUnitTypes{
                     lifetime = 10f;
                     width = 20f;
                     height = 38f;
-                    splashDamage = 700f;
+                    splashDamage = 900f;
                     splashDamageRadius = 30f;
                     pierceDamageFactor = 0f;
                     pierceCap = -1;
