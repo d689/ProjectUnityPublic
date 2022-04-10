@@ -741,7 +741,7 @@ public final class UnityUnitTypes{
                     lifetime = 10f * 60f;
                     collidesTeam = true;
                     healPercent = 0.4f;
-                    splashDamage = 250f;
+                    splashDamage = 75f;
                     splashDamageRadius = 25f;
                     knockback = 3f;
                     buildingDamageMultiplier = 0.6f;
