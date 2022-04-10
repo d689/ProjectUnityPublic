@@ -736,7 +736,7 @@ public final class UnityUnitTypes{
                 continuous = true;
                 cooldownTime = 280f;
 
-                bullet = new SagittariusLaserBulletType(1500f){{
+                bullet = new SagittariusLaserBulletType(200f){{
                     shootEffect = ChargeFx.sagittariusCharge;
                     lifetime = 10f * 60f;
                     collidesTeam = true;
@@ -764,7 +764,7 @@ public final class UnityUnitTypes{
                 shots = 2;
                 shootSound = UnitySounds.energyBolt;
 
-                bullet = new ArrowBulletType(7f, 100f){{
+                bullet = new ArrowBulletType(7f, 150f){{
                     lifetime = 60f;
                     pierce = true;
                     pierceBuilding = true;
@@ -1100,9 +1100,9 @@ public final class UnityUnitTypes{
 
             BulletType b = UnitTypes.scepter.weapons.get(0).bullet.copy();
             b.speed = 6.5f;
-            b.damage = 60f;
+            b.damage = 100f;
             b.lightning = 3;
-            b.lightningDamage = 27f;
+            b.lightningDamage = 40f;
             b.lightningCone = 360f;
             b.lifetime = 50f;
             b.lightningLength = 14;
@@ -1144,7 +1144,7 @@ public final class UnityUnitTypes{
                 cooldownTime = 6f * 60f;
                 shootSound = Sounds.beam;
 
-                bullet = new AcceleratingLaserBulletType(350f){{
+                bullet = new AcceleratingLaserBulletType(200f){{
                     lifetime = 4f * 60f;
                     maxLength = 430f;
                     maxRange = 400f;
