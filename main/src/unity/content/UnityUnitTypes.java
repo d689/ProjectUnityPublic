@@ -461,7 +461,7 @@ public final class UnityUnitTypes{
                 bullet = new SlowRailBulletType(25f, 250f){{
                     lifetime = 13f;
                     trailSpacing = 25f;
-                    splashDamage = 500f;
+                    splashDamage = 300f;
                     splashDamageRadius = 50f;
                     hitEffect = Fx.hitBulletBig;
                     shootEffect = Fx.instShoot;
@@ -1100,7 +1100,7 @@ public final class UnityUnitTypes{
 
             BulletType b = UnitTypes.scepter.weapons.get(0).bullet.copy();
             b.speed = 6.5f;
-            b.damage = 40f;
+            b.damage = 100f;
             b.lightning = 3;
             b.lightningDamage = 27f;
             b.lightningCone = 360f;
@@ -1144,7 +1144,7 @@ public final class UnityUnitTypes{
                 cooldownTime = 6f * 60f;
                 shootSound = Sounds.beam;
 
-                bullet = new AcceleratingLaserBulletType(240f){{
+                bullet = new AcceleratingLaserBulletType(320f){{
                     lifetime = 4f * 60f;
                     maxLength = 430f;
                     maxRange = 400f;
@@ -1378,7 +1378,7 @@ public final class UnityUnitTypes{
         }};
 
         blue = new UnityUnitType("blue"){{
-            health = 160500f;
+            health = 155500f;
             speed = 0.4f;
             drag = 0.18f;
             hitSize = 80f;
@@ -1524,7 +1524,7 @@ public final class UnityUnitTypes{
                     lifetime = 10f;
                     width = 20f;
                     height = 38f;
-                    splashDamage = 1100f;
+                    splashDamage = 1300f;
                     splashDamageRadius = 30f;
                     pierceDamageFactor = 0f;
                     pierceCap = -1;
