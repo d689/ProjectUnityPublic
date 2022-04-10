@@ -1362,7 +1362,7 @@ public final class UnityUnitTypes{
                 bullet = new MortarBulletType(7f, 4f){{
                     width = height = 22f;
                     splashDamageRadius = 160f;
-                    splashDamage = 270f;
+                    splashDamage = 350f;
                     trailWidth = 7f;
                     trailColor = Pal.bulletYellowBack;
                     hitEffect = HitFx.hitExplosionMassive;
